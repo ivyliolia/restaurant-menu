@@ -2,7 +2,7 @@
   "name": "restaurant-menu",
   "version": "1.0.0",
   "description": "Restaurant Menu Backend API",
-  "main": "handler.js",
+  "main": "src/listMenuItems.js",
   "scripts": {
     "test": "jest"
   },

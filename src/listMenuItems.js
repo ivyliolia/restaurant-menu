@@ -10,7 +10,6 @@ export async function main(event, context, callback) {
   };
   try {
     const result = await dynamoDB.call("get", params);
-    console.log("result:", JSON.stringify(result));
     callback(null, success(result.Item.menu));
   } catch (error) {
     console.log(error);
